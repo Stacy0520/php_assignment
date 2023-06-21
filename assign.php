@@ -34,7 +34,7 @@ After inserting '$' the array is :
 
 
 /*4. Write a PHP script to calculate and display average temperature, five 
-lowest and highest temperatures.
+lowest and highest temperatures
 Recorded temperatures : 78, 60, 62, 68, 71, 68, 73, 85, 66, 64, 76, 63, 75, 
 76, 73, 68, 62, 73, 72, 65, 74, 62, 62, 65, 64, 68, 73, 75, 79, 73
 Expected Output :
@@ -49,7 +49,7 @@ no hyphen(-) at starting and ending position.*/
 
 
 /*6. Create a script using a for loop to add all the integers between 0 and 30 
-and display the total.*/
+and display the total. jgthgtyhyhhgcyttyg*/
 
 
 
