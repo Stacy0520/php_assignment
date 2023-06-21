@@ -41,6 +41,8 @@ Expected Output :
 Average Temperature is : 70.6
 List of seven lowest temperatures : 60, 62, 63, 63, 64,
 List of seven highest temperatures : 76, 78, 79, 81, 85,*/
+$a=7;
+echo $a;
 
 
 
@@ -49,7 +51,7 @@ no hyphen(-) at starting and ending position.*/
 
 
 /*6. Create a script using a for loop to add all the integers between 0 and 30 
-and display the total. jgthgtyhyhhgcyttyg*/
+and display the total. */
 
 
 
