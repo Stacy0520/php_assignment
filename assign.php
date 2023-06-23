@@ -1,5 +1,5 @@
 <?php
-/*$color = array('white', 'green', 'red'')
+/*1. $color = array('white', 'green', 'red'')
 Write a PHP script which will display the colors in the following way :
 Output :
 white, green, red,
@@ -26,8 +26,6 @@ echo("<br>");
 unset($x[3]);
 var_dump($x);
 echo("<br>");
-
-
 
 
 /*3. Write a PHP script that inserts a new item in an array in any position.
@@ -89,7 +87,74 @@ and display the total. */
 
 $total=0;
 for($i=0; $i<=30; $i++){
-    $total+=$i;
+    $total+= $i;
 }
 echo "$total";
+
+/*7. Create a script to construct the following pattern, using nested for loop.*/
+for ($a=1;$a<=5;$a++){
+    for  ($b=1;$b<=$a;$b++){
+    echo "*  ";
+
+}
+echo "<br>";
+}
+ 
+
+/*8. Write a PHP script using nested for loop that creates a chess board as 
+shown below.
+Use table width="270px" and take 30px as cell height and width.*/
+
+?>
+
+<!DOCTYPE html>
+<html> 
+<body>
+<table width=270px border="1px">
+<?php
+for ($row=1; $row<=8;$row++){
+    echo "<tr>";
+    for ($col=1;$col<=8; $col++){
+        $total=$col+$row;
+        if($total%2==0){
+            echo "<td height=30px width=30px bgcolor=#000000></td>";
+        }
+        else{
+          echo "<td height=30px width=30px bgcolor=#FFFFFF></td>";
+        }
+  }  
+  echo"</tr>";    
+}?>
+
+</table>
+</body>
+</html>
+<?php
+
+/*9. Write a PHP program to compute the sum of the two given integer values. 
+If the two values are the same, then returns triple their sum.
+Sample Input
+1, 2
+3, 2
+2, 2
+Sample Output:
+3
+5
+12 */
+function numbers($num1,$num2){
+    $sum=$num1+$num2;
+    $triplesum=$sum * 3;
+    if($num1 != $num2){
+        echo $sum;
+    }
+    else{
+        echo $triplesum;
+    }
+}
+numbers(1,2);
+echo "<br>";
+numbers(3,2);
+echo "<br>";
+numbers(2,2);
+echo "<br>";
 
